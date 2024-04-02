@@ -28,3 +28,22 @@
 // counter.reset(); // 0
 // counter.reset(); // 0
  
+/**
+ * @param {integer} init
+ * @return { increment: Function, decrement: Function, reset: Function }
+ */
+var createCounter = function(init) {
+    return {
+        increment: function() {
+            return init = init + 1;
+        },
+
+        decrement: function() {
+            return init = init - 1;
+        }, 
+
+        reset: function() {
+            return init = 0;
+        }
+    };
+};
