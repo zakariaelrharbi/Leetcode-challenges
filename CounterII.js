@@ -46,7 +46,8 @@ var createCounter = function(init) {
         }, 
 
         reset: function() {
-            return init = 0;
+            counter = init
+            return counter;
         }
     };
 };
