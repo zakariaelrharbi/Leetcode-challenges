@@ -41,7 +41,8 @@ var createCounter = function(init) {
         },
 
         decrement: function() {
-            return ;
+            counter--;
+            return counter;
         }, 
 
         reset: function() {
