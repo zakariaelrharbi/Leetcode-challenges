@@ -36,7 +36,7 @@ var createCounter = function(init) {
     let counter = init;
     return {
         increment: function() {
-            return init = init + 1;
+            return ;
         },
 
         decrement: function() {
