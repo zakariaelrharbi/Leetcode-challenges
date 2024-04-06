@@ -33,6 +33,7 @@
  * @return { increment: Function, decrement: Function, reset: Function }
  */
 var createCounter = function(init) {
+    let counter = init;
     return {
         increment: function() {
             return init = init + 1;
