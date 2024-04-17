@@ -1,1 +1,1 @@
-30-days-of-javascript on leetcode 
+30-days-of-javascript on leetcode.
